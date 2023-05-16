@@ -1,0 +1,14 @@
+html, body{
+    margin: 0;
+    font-family: Inter, sans-serif;
+}
+
+.card .card-body:hover {
+	background-color: #0d6efd;
+	color: #ffffff;
+	cursor: pointer;
+}
+.order .card .card-body:hover img {
+	-webkit-filter: invert(1);
+	filter: invert(1);
+}
